@@ -5,5 +5,7 @@ function loadStories() {
   require('../src/components/stories/HomePageBodyComponent.story');
   require('../src/components/stories/HomePageLayout.story');
   require('../src/components/stories/HomePage.story');
+  require('../src/components/stories/ProjectComponent.story');
+  require('../src/components/stories/AccordionComponent.story')
 }
 configure(loadStories, module);

@@ -1,61 +1,86 @@
 @import '../node_modules/material-design-icons/iconfont/material-icons.css';
 @import '../node_modules/materialize-css/dist/css/materialize.css';
-@import '../node_modules/font-awesome/css/font-awesome.min.css'
-
-.body{
-	margin:20px;
+@import '../node_modules/font-awesome/css/font-awesome.min.css' .body {
+    margin: 20px;
 }
 
-body{
+body {
 
-	 font-family: 'Gloria Hallelujah'
+    font-family: 'Gloria Hallelujah'
 }
-.nameLink{
-	font-size:35px;
+
+.nameLink {
+    font-size: 35px;
 }
-.navigation{
-	border-left:dotted;
-	border-right:none;
+
+.navigation {
+    border-left: dotted;
+    border-right: none;
 }
-.filler1{
-	height:190px;
-	width:190px;
+
+.filler1 {
+    height: 190px;
+    width: 190px;
 }
-.filler2{
-	height:190px;
-	width:210px;
+
+.filler2 {
+    height: 190px;
+    width: 210px;
 }
-.filler2{
-	height:182px;
-	width:185px;
+
+.filler2 {
+    height: 182px;
+    width: 185px;
 }
-.imageContainer{
-	margin-top:30px;
-	margin-left:400px;
-	display: flex;
-	flex-direction:column;
-	align-items: center;
-	
+
+.imageContainer {
+    margin-top: 30px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.turq {
+    color: #00CED1;
+}
+
+.imageSquare {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.quote {
+    width: 450px;
+}
+
+.linksContainer {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accorContainer{
+  width: 375px;
+  margin: 0 auto;
+}
+button{
+  border:none;
+  background-color:lightgrey;
+  width:100%;
+}
+button:focus {
+  outline:0;
+}
+.section{
+  overflow: hidden;
+}
+.selected{
 
 }
-.turq{
-	color:#00CED1;
-}
-.imageSquare{
-	margin-left:0;
-	margin-top:0;
-	margin-bottom:0;
-	margin-right:0;
-}
-.quote{
-	width:400px;
-
-}
-.linksContainer{
-	margin-top:170px;
-	display: flex;
-	flex-direction:column;
-	align-items: center;
-
-
+.deselected{
+  display:none; 
+  overflow: hidden;
 }

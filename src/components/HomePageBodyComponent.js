@@ -9,7 +9,7 @@ export default function HomePageBodyComponent() {
         <div className="imageContainer center-align col m6 l6">
           <div className="imageSquare row">
             <img
-              className="col"
+              className="col animated fadeInLeft"
               src={require("./resources/basketballPhoto.jpg")}
               alt="basketball"
               height="200"
@@ -20,7 +20,7 @@ export default function HomePageBodyComponent() {
           <div className="imageSquare row ">
             <div className="filler2 col" />
             <img
-              className="col"
+              className="col animated fadeInRight"
               src={require("./resources/tennisPhoto.jpeg")}
               alt="tennis"
               height="200"
@@ -29,7 +29,7 @@ export default function HomePageBodyComponent() {
           </div>
           <div className="imageSquare row">
             <img
-              className="col"
+              className="col animated fadeInLeft"
               src={require("./resources/boxingPhoto.jpg")}
               alt="basketball"
               height="200"
@@ -41,9 +41,9 @@ export default function HomePageBodyComponent() {
         <div className="col linksContainer m6 l6">
           <div className="row">
             <h5 className="quote">
-              "Everybody is a Genius. But If You Judge a Fish by Its Ability to
-              Climb a Tree, It Will Live Its Whole Life Believing that It is
-              Stupid." - <span className="turq">Einstein</span>
+              <span className="turq">"</span>Everybody is a genius, but if you judge a fish by its ability to
+              climb a tree, it will live its whole life believing that it is
+              stupid.<span className="turq">"</span>
             </h5>
           </div>
           <div className="row">
