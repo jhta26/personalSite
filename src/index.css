@@ -63,7 +63,7 @@ body {
     align-items: center;
 }
 .accorContainer{
-  width: 375px;
+  width: 500px;
   margin: 0 auto;
 }
 button{
@@ -83,4 +83,10 @@ button:focus {
 .deselected{
   display:none; 
   overflow: hidden;
+}
+.projectNameDes{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }

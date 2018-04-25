@@ -4,6 +4,7 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import HomePage from "./components/HomePage";
+import ProjectPage from './components/ProjectPage'
 import "./index.css";
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/projects" component={ProjectPage}/>
           </Switch>
         </Router>
       </div>

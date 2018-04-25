@@ -5,21 +5,16 @@ import AccordionComponent from '../AccordionComponent';
 
 const data=[
   {
-    "title":"Section One",
-    "content":`stuff adfkajsdkfgjasdklfjasdklfjklasdjf
-    klasjdfkljasdklfjklasd`
+    "title":"Summary",
+    "content":`Coordination platform for meetups and appointments by seeing other users’ locations.`
   },
   {
-      "title":"Section Two",
-    "content":"stuff asdfasdfasdf asdf asdf asd fasdfas df asdfasdf "
+    "title":"Features",
+    "content":"-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
   },
   {
-    "title":"Section Three",
-    "content":"stuff"
-  },
-  {
-    "title":"Section Four",
-    "content":"stuff"
+    "title":"Tech Used",
+    "content":"Javascript \n React\nReact Native\nNode/Express\nPostgres\nChai\nMocha"
   }
 ];
 

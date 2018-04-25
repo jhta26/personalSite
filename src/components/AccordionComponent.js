@@ -18,10 +18,8 @@ export default class AccordionComponent extends React.Component {
     var check = this.state.active === index;
     if (check) {
       this.setState({ active: -1 });
-      console.log(this.state);
     } else {
       this.setState({ active: index });
-      console.log(this.state);
     }
   }
 
@@ -36,11 +34,15 @@ export default class AccordionComponent extends React.Component {
   showList(dataInfo) {
     var List = dataInfo.map((data, index) => {
       return (
-        <div className={"Section"}>
+        <div className={"Section animated fadeInDown"}>
           <button name={index} className={"Header"} onClick={this.eventHandler}>
             {data.title}
           </button>
-          <p className={"Content " + this.getSelected(index)}>{data.content}</p>
+          <p className={"Content " + this.getSelected(index)}>
+            {data.content.split("\n").map(i => {
+              return <div>{i}</div>;
+            })}
+          </p>
         </div>
       );
     });
