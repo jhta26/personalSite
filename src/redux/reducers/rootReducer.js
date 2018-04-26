@@ -1,7 +1,7 @@
 export default function rootReducer(
   currentState = {
-    rubrics: [],
-    selected: { name: 'Jason' }
+    resume: [],
+    projects: { name: 'Jason' }
   },
   action
 ) {
