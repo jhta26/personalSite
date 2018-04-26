@@ -88,5 +88,17 @@ button:focus {
 	display: flex;
     flex-direction: column;
     align-items: center;
-    
+
+}
+.projects{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px
+}
+.listLinks{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width:700px;
 }

@@ -4,13 +4,13 @@ import ProjectPageLayout from "./ProjectPageLayout";
 import ProjectListComponent from "./ProjectListComponent";
 import ProjectComponent from "./ProjectComponent";
 
-export default function HomePage() {
+export default function ProjectPage({data}) {
   return (
-    <div className="HomePage">
+    <div className="ProjectPage">
       <ProjectPageLayout>
         <HeaderComponent />
         <ProjectListComponent />
-        <ProjectComponent />
+        <ProjectComponent data={data} />
       </ProjectPageLayout>
     </div>
   );

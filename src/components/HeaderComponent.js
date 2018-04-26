@@ -16,8 +16,8 @@ export default function HeaderComponent() {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-          <Link to={'/projects'}>
-              RESUME
+          <Link to={'/projects'}className="black-text">
+              PROJECTS
             </Link>
           </li>
           <li>
@@ -27,7 +27,7 @@ export default function HeaderComponent() {
           </li>
           <li>
             <a href="badges.html" className="black-text">
-              PROJECTS
+              RESUME
             </a>
           </li>
         </ul>
