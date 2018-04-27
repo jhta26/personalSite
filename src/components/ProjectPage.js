@@ -10,17 +10,16 @@ export default function ProjectPage({
   selectedProject,
   showProject
 }) {
+  console.log(selectedProject,projectInfo,'aweoifjwofijeowi',showProject,);
   return (
     <div className="ProjectPage">
       <ProjectPageLayout>
         <HeaderComponent />
         <ProjectListComponent onShowProject={onShowProject} />
-        {showProject ? (
-          <ProjectComponent
-            projectInfo={projectInfo}
-            selectedProject={selectedProject}
-          />
-        ) : null}
+        {showProject
+          ? projectInfo.filter(proj=>proj.name===selectedProject).map(project => <ProjectComponent projectInfo={project} selectedProject={selectedProject}/>)
+            
+          : null}
       </ProjectPageLayout>
     </div>
   );
