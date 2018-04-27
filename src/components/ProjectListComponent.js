@@ -8,7 +8,7 @@ export default function ProjectListComponent({ onShowProject }) {
   };
 
   return (
-    <div className="ProjectListComponent col">
+    <div className="ProjectComponent container col">
       <div className="listLinks row">
         <i
           className="col fa fa-map fa-4x animated fadeInUp"
