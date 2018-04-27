@@ -9,11 +9,11 @@
     },
     {
         "title": "Features",
-        "content": "-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
+        "content": "-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n \n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n \n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
     },
     {
         "title": "Tech Used",
-        "content": "Javascript \n React\nReact Native\nNode/Express\nPostgres\nChai\nMocha"
+        "content": "Javascript \n \n React\n \nReact Native\n \nNode/Express\n \nPostgres\n \nChai\n \nMocha"
     }]
 },
 {
@@ -26,11 +26,11 @@
     },
     {
         "title": "Features",
-        "content": "-Designed and built mock email web system using JavaScript, ReactJS, Redux, HTML5, CSS3 and Materialize.\n -Integrated Airtable API as backend to save messages, saving $60 / year on monthly server and database fees."
+        "content": "-Designed and built mock email web system using JavaScript, ReactJS, Redux, HTML5, CSS3 and Materialize.\n \n -Integrated Airtable API as backend to save messages, saving $60 / year on monthly server and database fees."
     },
     {
         "title": "Tech Used",
-        "content": "Javascript \n React \nRedux \nChai\nMocha"
+        "content": "Javascript \n \n React \n \nRedux \n \nChai\n \nMocha"
     }]
 },
 {
@@ -47,7 +47,7 @@
     },
     {
         "title": "Tech Used",
-        "content": "Javascript \n React \nRedux \nChai\nMocha"
+        "content": "Javascript \n \n React \n \nRedux \n \nChai\n \nMocha"
     }]
 },
 {
@@ -64,7 +64,7 @@
     },
     {
         "title": "Tech Used",
-        "content": "Javascript \n ElementX"
+        "content": "Javascript \n \n ElementX"
     }]
 },
 {
@@ -77,11 +77,11 @@
     },
     {
         "title": "Features",
-        "content": "-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
+        "content": "-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n \n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n \n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
     },
     {
         "title": "Tech Used",
-        "content": "Javascript \n React\nReact Native\nNode/Express\nPostgres\nChai\nMocha"
+        "content": "Javascript \n \n React\n \nReact Native\n \nNode/Express\n \nPostgres\n \nChai\n \nMocha"
     }]
 },
 {
@@ -94,11 +94,11 @@
     },
     {
         "title": "Features",
-        "content": "-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
+        "content": "-Built interactive frontend with JavaScript, ReactJS, React Native and native-base library with Redux, allowing users to create meetups by searching for locations and inviting friends to join. \n \n -Architected and deployed RESTful API with Node.js and Express with data persistence using PostgreSQL DB; deployed backend to AWS using EC2 and Elastic Beanstalk.\n \n-Implemented Google Maps, Google Directions, and Geocoding API’s and Socket.io to update locations in real time, allowing users to see exactly how far away friends are from destination.\n \n-Used TDD with Jest and Enzyme for front end and supertests for REST API calls, achieving 80% code coverage."
     },
     {
         "title": "Tech Used",
-        "content": "Javascript \n React\nReact Native\nNode/Express\nPostgres\nChai\nMocha"
+        "content": "Javascript \n \n React\n \nReact Native\n \nNode/Express\n \nPostgres\n \nChai\n \nMocha"
     }]
 }
 ]

@@ -8,5 +8,7 @@ function loadStories() {
   require('../src/components/stories/ProjectComponent.story');
   require('../src/components/stories/AccordionComponent.story')
   require('../src/components/stories/ProjectPage.story')
+  require('../src/components/stories/ResumePage.story')
+  require('../src/components/stories/AboutMeBodyComponent.story')
 }
 configure(loadStories, module);

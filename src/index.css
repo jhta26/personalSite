@@ -66,6 +66,7 @@ body {
 .accorContainer {
     width: 420px;
     margin: 0 auto;
+    border: 2px solid black;
 }
 
 button {
@@ -92,7 +93,7 @@ button:focus {
 .projectNameDes {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 20px;
 }
@@ -112,8 +113,16 @@ button:focus {
     align-items: center;
 }
 
+.aboutMeComponent{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px
+}
+
 .projectNameAndFeatures {
-    margin: 18px;
+    margin: 15px;
 }
 
 .projectFeatures {}
@@ -124,7 +133,16 @@ button:focus {
     align-items: space-between;
     margin-top: 70px
 }
-
+.resume{
+	margin:20px;
+}
+.techAndSkills{
+	margin-bottom: 20px
+}
+.techRow{
+	padding:10px;
+	margin:10px;
+}
 .listLinks {
     display: flex;
     flex-direction: row;

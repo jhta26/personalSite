@@ -36,7 +36,7 @@ export default class AccordionComponent extends React.Component {
       return (
         <div className={"Section animated fadeInDown"}>
           <button name={index} className={"Header"} onClick={this.eventHandler}>
-            {data.title}
+            <span className={"accorButton"}>{data.title}</span>
           </button>
           <p className={"Content " + this.getSelected(index)}>
             {data.content.split("\n").map(i => {
