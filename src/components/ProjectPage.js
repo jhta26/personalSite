@@ -17,7 +17,7 @@ export default function ProjectPage({
         <HeaderComponent />
         <ProjectListComponent onShowProject={onShowProject} />
         {showProject
-          ? projectInfo.filter(proj=>proj.name===selectedProject).map(project => <ProjectComponent projectInfo={project} selectedProject={selectedProject}/>)
+          ? projectInfo.map(project => <ProjectComponent projectInfo={project} selectedProject={selectedProject}/>)
             
           : null}
       </ProjectPageLayout>

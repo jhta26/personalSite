@@ -6,6 +6,8 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
   
 
   return (
+    <div>
+  {selectedProject===projectInfo.name?
     <div className="ProjectComponent col container">
       <div className="row projectNameDes">
         <h3 className="col projectNameAndFeatures ">
@@ -23,6 +25,8 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
           alt="project photo"
         />
       </div>
-    </div>
+    </div>:null
+  }
+  </div>
   );
 }
