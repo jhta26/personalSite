@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function HeaderComponent() {
@@ -6,7 +6,7 @@ export default function HeaderComponent() {
     <nav className="navigation white container z-depth-0">
       <div className="nav-wrapper white">
         <Link to={"/"} className="black-text">
-          <a href="#" className="black-text white left nameLink">
+          <a className="black-text white left nameLink">
             JASON <span className="turq">H</span>{" "}
             <img
               src={require("./resources/hsu.png")}

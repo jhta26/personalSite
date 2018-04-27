@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import "font-awesome/css/font-awesome.css";
 
 export default function HomePageBodyComponent() {

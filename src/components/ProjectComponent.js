@@ -4,6 +4,7 @@ import AccordionComponent from "./AccordionComponent";
 export default function ProjectComponent({ projectInfo, selectedProject }) {
   var allInfo = projectInfo.slice();
   var selected = allInfo.filter(project => project.name == selectedProject);
+  
 
   return (
     <div className="ProjectComponent col container">
