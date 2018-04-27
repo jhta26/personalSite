@@ -1,30 +1,56 @@
 import React from "react";
 
-export default function ProjectListComponent({onShowProject}) {
-
-	var _handleShowProject=event=>{
-		var target = event.target
-		event.preventDefault()
-		onShowProject(target.getAttribute("value"))
-	}
+export default function ProjectListComponent({ onShowProject }) {
+  var _handleShowProject = event => {
+    var target = event.target;
+    event.preventDefault();
+    onShowProject(target.getAttribute("value"));
+  };
 
   return (
     <div className="ProjectListComponent col">
       <div className="listLinks row">
-        <i className="col fa fa-map fa-4x" value="GLANCE" style={{ color: "black" }} onClick={_handleShowProject}/>
-        <p className="col">Glance</p>
-        <i className="col fa fa-inbox fa-4x" value="JMAIL" style={{ color: "black" }} onClick={_handleShowProject} />
-        <p className="col">JMail</p>
-        <i className="col fa fa-leanpub fa-4x" value="JASONS RESTAURANT" style={{ color: "black" }} onClick={_handleShowProject} />
-        <p className="col">Jason's Restaurant</p>
-      </div>
-      <div className="listLinks row">
-        <i className="col fa fa-map fa-4x" value="NBA PLAYER COMPARISON"style={{ color: "black" }} onClick={_handleShowProject}/>
-        <p className="col">NBA player comparison</p>
-        <i className="col fa fa-map fa-4x" value="FOOD LOC" style={{ color: "black" }} onClick={_handleShowProject}/>
-        <p className="col">FoodLoc</p>
-        <i className="col fa fa-google fa-4x" value="TOP GOOGLE SEARCH" style={{ color: "black" }} onClick={_handleShowProject}/>
-        <p className="col">Top Google Search</p>
+        <i
+          className="col fa fa-map fa-4x animated fadeInUp"
+          value="GLANCE"
+          style={{ color: "#00CED1" }}
+          onClick={_handleShowProject}
+        />
+
+        <i
+          className="col fa fa-inbox fa-4x animated fadeInDown"
+          value="JMAIL"
+          style={{ color: "red" }}
+          onClick={_handleShowProject}
+        />
+
+        <i
+          className="col fa fa-leanpub fa-4x animated fadeInUp"
+          value="JASONS RESTAURANT"
+          style={{ color: "blue" }}
+          onClick={_handleShowProject}
+        />
+
+        <i
+          className="col fa fa-dribbble fa-4x animated fadeInDown"
+          value="NBA PLAYER COMPARISON"
+          style={{ color: "teal" }}
+          onClick={_handleShowProject}
+        />
+
+        <i
+          className="col fa fa-lock fa-4x animated fadeInUp"
+          value="FOOD LOC"
+          style={{ color: "orange" }}
+          onClick={_handleShowProject}
+        />
+
+        <i
+          className="col fa fa-google fa-4x animated fadeInDown"
+          value="TOP GOOGLE SEARCH"
+          style={{ color: "gold" }}
+          onClick={_handleShowProject}
+        />
       </div>
     </div>
   );

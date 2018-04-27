@@ -4,7 +4,7 @@ export default class AccordionComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: 0
+      active: -1
     };
     this.getSelected = this.getSelected.bind(this);
     this.makeActive = this.makeActive.bind(this);

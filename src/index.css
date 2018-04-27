@@ -62,62 +62,72 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.accorContainer{
-  width: 500px;
-  margin: 0 auto;
-}
-button{
-  border:none;
-  background-color:lightgrey;
-  width:100%;
-}
-button:focus {
-  outline:0;
-}
-.section{
-  overflow: hidden;
-}
-.selected{
 
+.accorContainer {
+    width: 420px;
+    margin: 0 auto;
 }
-.deselected{
-  display:none; 
-  overflow: hidden;
+
+button {
+    border: none;
+    background-color: lightgrey;
+    width: 100%;
 }
-.projectNameDes{
-	display: flex;
+
+button:focus {
+    outline: 0;
+}
+
+.section {
+    overflow: hidden;
+}
+
+.selected {}
+
+.deselected {
+    display: none;
+    overflow: hidden;
+}
+
+.projectNameDes {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin:20px;
-
+    margin: 20px;
 }
-.ProjectComponent{
-	display: flex;
+
+.ProjectComponent {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.projectImage{
-	width:100%;
-}
-.projectNameAndFeatures{
-margin:50px;
 
+.projectImage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.projectFeatures{
-	
 
+.projectNameAndFeatures {
+    margin: 18px;
 }
-.projects{
-	display:flex;
-	flex-direction: column;
-	align-items: space-between;
-	margin-top: 70px
+
+.projectFeatures {}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-top: 70px
 }
-.listLinks{
-	display:flex;
-	flex-direction:row;
-	justify-content: space-between;
-	width:700px;
+
+.listLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
 }

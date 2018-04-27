@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function HeaderComponent() {
   return (
@@ -16,7 +16,7 @@ export default function HeaderComponent() {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-          <Link to={'/projects'}className="black-text">
+            <Link to={"/projects"} className="black-text">
               PROJECTS
             </Link>
           </li>

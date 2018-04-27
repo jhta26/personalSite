@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
     "animate.css": "^3.6.1",
     "chai": "^4.1.2",
     "deep-freeze": "0.0.1",
