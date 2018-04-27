@@ -10,7 +10,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
   {selectedProject===projectInfo.name?
     <div className="ProjectComponent col container">
       <div className="row projectNameDes">
-        <h3 className="col projectNameAndFeatures ">
+        <h3 className="col projectNameAndFeatures animated fadeIn">
           {projectInfo.name || "N/A"}
         </h3>
         <AccordionComponent
