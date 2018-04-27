@@ -4,7 +4,7 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import HomePage from "./components/HomePage";
-import ProjectPage from "./components/ProjectPage";
+import ProjectPageContainer from "./redux/containers/ProjectPageContainer";
 import "./index.css";
 import { Provider } from "react-redux";
 import setupStore from "./redux/setupStore";
@@ -19,7 +19,7 @@ class App extends Component {
           <Router>
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route exact path="/projects" component={ProjectPage} />
+              <Route exact path="/projects" component={ProjectPageContainer} />
             </Switch>
           </Router>
         </Provider>

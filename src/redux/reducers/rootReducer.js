@@ -1,16 +1,23 @@
 export default function rootReducer(
-  currentState = {
-    resume: [],
-    projects: { name: 'Jason' }
-  },
-  action
+    currentState = {
+        projectInfo: [],
+        selectedProject: "",
+        showProject: false
+    },
+    action
 ) {
-  switch (action.type) {
-    case 'GET_RUBRICS_STARTED':
-      return {
-        ...currentState,
-        isGettingRubrics: true
-      };
+    switch (action.type) {
+        case 'GET_PROJECT_INFO':
+            return {
+                ...currentState,
+                projectInfo: action.projectInfo
+            };
+        case 'SELECT_PROJECT':
+            return {
+                ...currentState,
+                selectedProject: action.selectedProject,
+                showProject:true
+            }
+    }
 
-  }
 }
