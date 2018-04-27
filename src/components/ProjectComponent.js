@@ -4,24 +4,23 @@ import AccordionComponent from "./AccordionComponent";
 
 export default function ProjectComponent({projectInfo,selectedProject}) {
   var allInfo = projectInfo.slice()
-  var selected = allInfo.filter(project=>project.name!==selectedProject)
+  var selected = allInfo.filter(project=>project.name==selectedProject)
   
-  console.log(selected,'>>>>>>>>',projectInfo[0])
+  console.log(selected,'>>>>>>>>',selectedProject)
   return (
-    <div className="ProjectComponent row">
-      <div className="col">
-        <img
-          className="col animated fadeInLeft"
+    <div className="ProjectComponent col container">
+      <div className="row projectNameDes">
+        <h3 className="col projectNameAndFeatures ">{selected[0].name||'N/A'}</h3>
+        <AccordionComponent className="col projectNameAndFeatures" data={selected[0].data||'N/A'} />
+      </div>
+      <div className="row projectNameDes">
+            <img
+          className="projectImage col animated fadeInLeft"
           src={selected[0].image||'./resources/hsu.png'}
           alt="project photo"
-          height="400"
-          width="400"
         />
       </div>
-      <div className="col projectNameDes">
-        <h3>{selected[0].name||'N/A'}</h3>
-        <AccordionComponent data={selected[0].data||'N/A'} />
-      </div>
+     
     </div>
   );
 }

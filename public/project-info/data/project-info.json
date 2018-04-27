@@ -1,6 +1,6 @@
 [
 {
-    "name": "Glance",
+    "name": "GLANCE",
     "image": "project-info/img/glance1.gif",
     "data": [
     {
@@ -17,7 +17,7 @@
     }]
 },
 {
-    "name": "JMail",
+    "name": "JMAIL",
     "image": "project-info/img/inbox1.gif",
     "data": [
     {
@@ -34,7 +34,7 @@
     }]
 },
 {
-    "name": "JasonsRestaurant",
+    "name": "JASONS RESTAURANT",
     "image": "project-info/img/restaurant1.gif",
     "data": [
     {
@@ -51,7 +51,7 @@
     }]
 },
 {
-    "name": "NBA",
+    "name": "NBA PLAYER COMPARISON",
     "image": "project-info/img/playerComparisonScreenShot1.png",
     "data": [
     {
@@ -68,8 +68,8 @@
     }]
 },
 {
-    "name": "FoodLoc",
-    "image": "project-info/img/floodLoc1.gif",
+    "name": "FOOD LOC",
+    "image": "project-info/img/foodLoc1.gif",
     "data": [
     {
         "title": "Summary",
@@ -85,7 +85,7 @@
     }]
 },
 {
-    "name": "TGS",
+    "name": "TOP GOOGLE SEARCH",
     "image": "project-info/img/topGoogleSearch1.gif",
     "data": [
     {
