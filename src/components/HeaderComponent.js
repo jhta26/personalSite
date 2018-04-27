@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function HeaderComponent() {
+export default function HeaderComponent({onCloseProject}) {
+var _handleCloseProject = () =>{
+  onCloseProject()
+}
+
   return (
     <nav className="navigation white container z-depth-0">
       <div className="nav-wrapper white">
-        <Link to={"/"} className="black-text">
+        <Link to={"/"} className="black-text" onClick={_handleCloseProject}>
           <a className="black-text white left nameLink">
             JASON <span className="turq">H</span>{" "}
             <img
@@ -23,12 +27,12 @@ export default function HeaderComponent() {
             </Link>
           </li>
           <li>
-           <Link to={"/aboutMe"} className="black-text">
+           <Link to={"/aboutMe"} className="black-text" onClick={_handleCloseProject}>
               ABOUT ME
             </Link>
           </li>
           <li>
-            <Link to={"/resume"} className="black-text">
+            <Link to={"/resume"} className="black-text" onClick={_handleCloseProject}>
               RESUME
             </Link>
           </li>

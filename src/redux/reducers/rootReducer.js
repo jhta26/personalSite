@@ -18,6 +18,11 @@ export default function rootReducer(
                 selectedProject: action.selectedProject,
                 showProject:true
             }
+        case 'CLOSE_PROJECT':
+            return{
+              ...currentState,
+              showProject:false
+            }
     }
 
 }

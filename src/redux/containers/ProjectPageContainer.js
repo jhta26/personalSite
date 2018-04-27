@@ -12,7 +12,8 @@ function mapStateToProps(state,ownProps){
 function mapDispatchToProps(dispatch,ownProps){
     return{
         onMount: ()=>dispatch(getProjectInfoProcess()),
-        onShowProject: selectedProject=>dispatch({type:'SELECT_PROJECT',selectedProject:selectedProject}) 
+        onShowProject: selectedProject=>dispatch({type:'SELECT_PROJECT',selectedProject:selectedProject}),
+        onCloseProject:()=>dispatch({type:'CLOSE_PROJECT'}) 
 
     }
 }
