@@ -7,6 +7,7 @@
     "animate.css": "^3.6.1",
     "chai": "^4.1.2",
     "deep-freeze": "0.0.1",
+    "express": "^4.16.3",
     "font-awesome": "^4.7.0",
     "materialize-css": "^0.100.2",
     "react": "^16.3.2",
