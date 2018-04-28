@@ -1,6 +1,6 @@
 # My Personal Website
 
-jasonfhsu.herokuapp.com
+jfhsu.herokuapp.com
 
 
 ## Technologies Used
