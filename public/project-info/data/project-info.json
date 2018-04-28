@@ -1,7 +1,7 @@
 [
 {
     "name": "GLANCE",
-    "image": "project-info/img/glance1.gif",
+    "image": "project-info/img/glanceScreenShot3.png",
     "data": [
     {
         "title": "Summary",
@@ -18,7 +18,7 @@
 },
 {
     "name": "JMAIL",
-    "image": "project-info/img/inbox1.gif",
+    "image": "project-info/img/inbox.png",
     "data": [
     {
         "title": "Summary",
@@ -69,7 +69,7 @@
 },
 {
     "name": "FOOD LOC",
-    "image": "project-info/img/foodLoc1.gif",
+    "image": "project-info/img/foodLoc.png",
     "data": [
     {
         "title": "Summary",
@@ -82,7 +82,7 @@
 },
 {
     "name": "TOP GOOGLE SEARCH",
-    "image": "project-info/img/topGoogleSearch1.gif",
+    "image": "project-info/img/topGoogleSearch.png",
     "data": [
     {
         "title": "Summary",
