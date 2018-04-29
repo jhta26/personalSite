@@ -1,8 +1,10 @@
+
 import React from "react";
 
 export default function AboutMeBodyComponent() {
   return (
     <div className="AboutMeComponent container col">
+
       <div className="aboutMeComponent">
         <div className="col m4">
           <img
@@ -89,50 +91,7 @@ export default function AboutMeBodyComponent() {
         </div>
       </div>
       <li className="divider container" tabindex="-1" />
-      <div className="aboutMeComponent">
-        <div className="col m5">
-          <h5 className="techAndSkills">TECHNOLOGIES AND SKILLS</h5>
-        </div>
-        <div className="techRow row">
-          <img
-            className="col animated fadeIn"
-            src={require("./resources/HTMLCSSJS.png")}
-            alt="resume"
-            height="70"
-          />
-          <img
-            className="col animated fadeIn"
-            src={require("./resources/react.jpg")}
-            alt="resume"
-            height="70"
-          />
-          <img
-            className="animated fadeIn"
-            src={require("./resources/reactNative.jpeg")}
-            alt="resume"
-            height="70"
-          />
-          <img
-            className="animated fadeIn"
-            src={require("./resources/node.png")}
-            alt="resume"
-            height="70"
-          />
-          <img
-            className="animated fadeIn"
-            src={require("./resources/postgresql.png")}
-            alt="resume"
-            height="70"
-          />
-          <img
-            className="animated fadeIn"
-            src={require("./resources/mochaChai.png")}
-            alt="resume"
-            height="70"
-          />
-        </div>
-      </div>
-      <li className="divider container" tabindex="-1" />
+ 
     </div>
   );
 }

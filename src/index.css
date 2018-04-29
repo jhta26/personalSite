@@ -1,4 +1,5 @@
-
+@import '../node_modules/material-design-icons/iconfont/material-icons.css';
+@import '../node_modules/materialize-css/dist/css/materialize.css';
 .body {
     margin: 20px;
 }
@@ -112,8 +113,8 @@ button:focus {
     align-items: center;
 }
 
-.aboutMeComponent{
-	display: flex;
+.aboutMeComponent {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -132,15 +133,106 @@ button:focus {
     align-items: space-between;
     margin-top: 70px
 }
-.resume{
-	margin:20px;
+
+.resume {
+    margin: 20px;
 }
-.techAndSkills{
-	margin-bottom: 20px
+
+.techAndSkills {
+    margin-bottom: 20px
 }
-.techRow{
-	padding:10px;
-	margin:10px;
+
+.techRow {
+    padding: 10px;
+    margin: 10px;
+}
+
+.ResumeComponent {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleDate {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.description {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.bullets {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.title {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+
+.resumeDate {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+
+.bulletPoint{
+    display: flex;
+    flex-direction: row;
+    padding-top:0px;
+    align-items: space-around;
+    
+}
+.bulletIcon{
+    padding-top:14px;
+    padding-right:8px;
+    font-size:5px;
+}
+.bullet{
+    height: 100%;
+    width: 85%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0px;
+    font-size: 16px;
+}
+.ResumeTechnologiesComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.techRow {
+    padding: 10px;
+    margin: 10px;
+
 }
 .listLinks {
     display: flex;
