@@ -1,5 +1,23 @@
 import React from "react";
 
+// export default function AccordionComponent({ data }) {
+ 
+//   return (
+//     <ul className="collapsible">
+//       {data.map((info,index) => 
+//         <li key={index}>
+//           <div className="collapsible-header">
+//             <i className="material-icons">filter_drama</i>
+//             {info.title}
+//           </div>
+//           <div className="collapsible-body">
+//             <span>{info.content}</span>
+//           </div>
+//         </li>
+//       )}
+//     </ul>
+//   );
+// }
 export default class AccordionComponent extends React.Component {
   constructor(props) {
     super(props);

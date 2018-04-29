@@ -2,28 +2,27 @@ import React from "react";
 
 export default function ResumeEducationComponent() {
   return (
-    <div className="ResumeEducationComponent">
-      <div className="card">
-        <div className="card-image card-action waves-effect waves-block waves-light">
-          <img
-            className="activator"
-            src={require("./resources/westernMI.jpg")}
-            height="170"
-          />
-        </div>
-        <div className="card-content">
-          <span className="card-title activator grey-text text-darken-4">
-            Education
-          </span>
+<div className="ResumeTechnologiesComponent">
+      <div className="card ">
+    
+        <div className="card-action">
+            <h4 className="activator waves-effect waves-block waves-light teal-text">Education</h4>
         </div>
         <div className="card-reveal">
-          <span className="card-title grey-text text-darken-4">
-            Card Title<i className="material-icons right">close</i>
+          <span className="card-title teal-text ">
+          <i className="material-icons right">close</i>
           </span>
-          <p>
-            Here is some more information about this product that is only
-            revealed once clicked on.
-          </p>
+            
+          <img
+            className="resume col  animated fadeIn"
+            src={require("./resources/westernMI.jpg")}
+            alt="resume"
+            height="120"
+            width="230"
+          />
+        <p className="teal-text center-align">Western Michigan University</p>
+        <p className="teal-text center-align">B.S. Business Management</p>
+         <p className="teal-text center-align">2013</p>
         </div>
       </div>
     </div>
