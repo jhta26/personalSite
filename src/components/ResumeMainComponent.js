@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ResumeMainComponent() {
   return (
-    <div className="ResumeMainComponent">
+    <div className="ResumeMainComponent animated fadeInDown">
     
           <div className="card">
                  <img

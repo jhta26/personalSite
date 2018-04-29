@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ResumeWorkComponent() {
   return (
-    <div className="ResumeWorkComponent">
+    <div className="ResumeWorkComponent animated fadeInDown">
       <div className="card teal lighten-2">
         <div className="card-action">
           <span className="activator waves-effect waves-block waves-light white-text">

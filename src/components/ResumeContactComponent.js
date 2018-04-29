@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ResumeContactComponent() {
   return (
-    <div className="ResumeContactComponent">
+    <div className="ResumeContactComponent animated fadeInUp">
       <div className="card teal lighten-2">
         <div className="card-content">
           <h4>CONTACT</h4>
