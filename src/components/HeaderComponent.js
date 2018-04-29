@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function HeaderComponent({onCloseProject}) {
-var _handleCloseProject = () =>{
-  onCloseProject()
-}
+export default function HeaderComponent({ onCloseProject }) {
+  var _handleCloseProject = () => {
+    onCloseProject();
+  };
 
   return (
     <nav className="navigation white container z-depth-0">
@@ -27,12 +27,20 @@ var _handleCloseProject = () =>{
             </Link>
           </li>
           <li>
-           <Link to={"/aboutMe"} className="black-text" onClick={_handleCloseProject}>
+            <Link
+              to={"/aboutMe"}
+              className="black-text"
+              onClick={_handleCloseProject}
+            >
               ABOUT ME
             </Link>
           </li>
           <li>
-            <Link to={"/resume"} className="black-text" onClick={_handleCloseProject}>
+            <Link
+              to={"/resume"}
+              className="black-text"
+              onClick={_handleCloseProject}
+            >
               RESUME
             </Link>
           </li>

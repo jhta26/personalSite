@@ -13,5 +13,6 @@ function loadStories() {
   require('../src/components/stories/ResumeProjectComponent.story')
   require('../src/components/stories/ResumeTechnologiesComponent.story')
   require('../src/components/stories/ResumeEducationComponent.story')
+  require('../src/components/stories/ResumeCardComponent.story')
 }
 configure(loadStories, module);

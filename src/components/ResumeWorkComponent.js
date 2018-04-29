@@ -15,8 +15,7 @@ export default function ResumeWorkComponent() {
           <span className="card-title grey-text text-darken-4">
             <i className="material-icons right">close</i>
           </span>
-        <p>S2E Consulting</p>
-         
+          <p>S2E Consulting</p>
         </div>
       </div>
     </div>

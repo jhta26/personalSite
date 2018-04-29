@@ -11,14 +11,18 @@ export default function ProjectPage({
   showProject,
   onCloseProject
 }) {
-  
   return (
     <div className="ProjectPage">
       <ProjectPageLayout>
-        <HeaderComponent onCloseProject={onCloseProject}/>
+        <HeaderComponent onCloseProject={onCloseProject} />
         <ProjectListComponent onShowProject={onShowProject} />
         {showProject
-          ? projectInfo.map(project => <ProjectComponent projectInfo={project} selectedProject={selectedProject}/>) 
+          ? projectInfo.map(project => (
+              <ProjectComponent
+                projectInfo={project}
+                selectedProject={selectedProject}
+              />
+            ))
           : null}
       </ProjectPageLayout>
     </div>

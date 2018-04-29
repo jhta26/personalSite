@@ -1,11 +1,8 @@
-
-
 import React from "react";
-import {Card,CardTitle} from 'react-materialize'
+import { Card, CardTitle } from "react-materialize";
 export default function AboutMeBodyComponent() {
   return (
     <div className="AboutMeComponent container col">
-
       <div className="aboutMeComponent">
         <div className="col m4">
           <img
@@ -92,7 +89,6 @@ export default function AboutMeBodyComponent() {
         </div>
       </div>
       <li className="divider container" tabindex="-1" />
- 
     </div>
   );
 }

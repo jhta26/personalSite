@@ -1,10 +1,10 @@
 import React from "react";
 
 // export default function AccordionComponent({ data }) {
- 
+
 //   return (
 //     <ul className="collapsible">
-//       {data.map((info,index) => 
+//       {data.map((info,index) =>
 //         <li key={index}>
 //           <div className="collapsible-header">
 //             <i className="material-icons">filter_drama</i>

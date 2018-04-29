@@ -1,285 +1,278 @@
-@import '../node_modules/material-design-icons/iconfont/material-icons.css';
-@import '../node_modules/materialize-css/dist/css/materialize.css';
+@import "../node_modules/material-design-icons/iconfont/material-icons.css";
+@import "../node_modules/materialize-css/dist/css/materialize.css";
 .body {
-    margin: 20px;
+  margin: 20px;
 }
 
 body {
-
-    font-family: 'Gloria Hallelujah'
+  font-family: "Gloria Hallelujah";
 }
 
 .nameLink {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .navigation {
-    border-left: dotted;
-    border-right: none;
+  border-left: dotted;
+  border-right: none;
 }
 
 .filler1 {
-    height: 190px;
-    width: 190px;
+  height: 190px;
+  width: 190px;
 }
 
 .filler2 {
-    height: 190px;
-    width: 210px;
+  height: 190px;
+  width: 210px;
 }
 
 .filler2 {
-    height: 182px;
-    width: 185px;
+  height: 182px;
+  width: 185px;
 }
 
 .imageContainer {
-    margin-top: 30px;
-    margin-left: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 30px;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .turq {
-    color: #00CED1;
+  color: #00ced1;
 }
 
 .imageSquare {
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .quote {
-    width: 450px;
+  width: 450px;
 }
 
 .linksContainer {
-    margin-top: 170px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .accorContainer {
-    width: 420px;
-    margin: 0 auto;
-    border: 1px solid black;
+  width: 420px;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 button {
-    border: none;
-    background-color: lightgrey;
-    width: 100%;
+  border: none;
+  background-color: lightgrey;
+  width: 100%;
 }
 
 button:focus {
-    outline: 0;
+  outline: 0;
 }
 
 .section {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .deselected {
-    display: none;
-    overflow: hidden;
+  display: none;
+  overflow: hidden;
 }
 
 .projectNameDes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 .ProjectComponent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectImage {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutMeComponent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .projectNameAndFeatures {
-    margin: 15px;
+  margin: 15px;
 }
 
-.projectFeatures {}
+.projectFeatures {
+}
 
 .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-    margin-top: 70px
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-top: 70px;
 }
 
 .resume {
-    margin: 20px;
+  margin: 20px;
 }
 
 .techAndSkills {
-    margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .techRow {
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .ResumeComponent {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .titleDate {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 16px;
 }
 
 .description {
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    font-size: 18px;
-    font-style: italic;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .bullets {
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 40px;
-    font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 40px;
+  font-size: 16px;
 }
 
 .title {
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    font-size: 22px;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 22px;
 }
 
 .resumeDate {
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    font-size: 22px;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 22px;
 }
 
 .bulletPoint {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0px;
-    align-items: space-around;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  align-items: space-around;
 }
 
 .bulletIcon {
-    padding-top: 14px;
-    padding-right: 8px;
-    font-size: 5px;
+  padding-top: 14px;
+  padding-right: 8px;
+  font-size: 5px;
 }
 
 .bullet {
-    height: 100%;
-    width: 85%;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 0px;
-    font-size: 16px;
+  height: 100%;
+  width: 85%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 0px;
+  font-size: 16px;
 }
 
 .ResumeTechnologiesComponent {
-    font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .card {
-    height: 325px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 325px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .resumeContainer {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
-
-/*.ResumeEducationComponent{
-    height:200px;
-    width:300px;
-}*/
-
 .ResumeCard {
-    width: 33%;
+  width: 33%;
 }
 
 .ResumeContactComponent {
-    color: white;
-    font-family: 'Roboto';
+  color: white;
+  font-family: "Roboto";
 }
 
 .ResumeMainComponent,
 .ResumeWorkComponent {
-    font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
-
 .resumeMain {
-    border-top: 4px dotted teal;
-    padding: 6px;
-    margin: 15px;
+  border-top: 4px dotted teal;
+  padding: 6px;
+  margin: 15px;
 }
 
 .contactInfo {
-    border-top: 4px dotted white;
-    border-bottom: 4px dotted white;
-    padding: 10px;
+  border-top: 4px dotted white;
+  border-bottom: 4px dotted white;
+  padding: 10px;
 }
 
 .techRow {
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .listLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
 }

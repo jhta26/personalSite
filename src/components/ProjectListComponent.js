@@ -5,7 +5,6 @@ export default function ProjectListComponent({ onShowProject }) {
     var target = event.target;
     event.preventDefault();
     onShowProject(target.getAttribute("value"));
-   
   };
 
   return (
