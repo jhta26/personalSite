@@ -1,6 +1,7 @@
 
-import React from "react";
 
+import React from "react";
+import {Card,CardTitle} from 'react-materialize'
 export default function AboutMeBodyComponent() {
   return (
     <div className="AboutMeComponent container col">

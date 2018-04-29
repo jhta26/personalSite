@@ -1,3 +1,4 @@
+
 @import '../node_modules/material-design-icons/iconfont/material-icons.css';
 @import '../node_modules/materialize-css/dist/css/materialize.css';
 .body {
@@ -229,6 +230,22 @@ button:focus {
     align-items: center;
 }
 
+.card{
+    height:325px;
+    margin:0;
+}
+.resumeContainer{
+    margin-top:40px;
+}
+/*.ResumeEducationComponent{
+    height:200px;
+    width:300px;
+}*/
+
+.ResumeCard{
+    width:33%;
+
+}
 .techRow {
     padding: 10px;
     margin: 10px;

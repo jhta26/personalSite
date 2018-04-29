@@ -1,19 +1,24 @@
 import React from "react";
 import HeaderComponent from "./HeaderComponent";
-import HomePageLayout from "./HomePageLayout";
-import ResumeProjectComponent from './ResumeProjectComponent'
+import ResumePageLayout from "./ResumePageLayout";
+import ResumeProjectComponent from "./ResumeProjectComponent";
+import ResumeEducationComponent from './ResumeEducationComponent'
+import ResumeTechnologiesComponent from './ResumeTechnologiesComponent'
+import ResumeMainComponent from './ResumeMainComponent'
+import ResumeContactComponent from './ResumeContactComponent'
 
 export default function ResumePage() {
   return (
     <div className="ResumePage">
-      <HomePageLayout>
+      <ResumePageLayout>
         <HeaderComponent />
-        <img
-          className="resume col animated fadeIn"
-          src={require("./resources/resumeScreenShot.png")}
-          alt="resume"
-        />
-      </HomePageLayout>
+        <ResumeEducationComponent/>
+          <ResumeMainComponent/>
+            <ResumeTechnologiesComponent/>
+            <ResumeEducationComponent/>
+          <ResumeEducationComponent/>
+            <ResumeEducationComponent/>
+      </ResumePageLayout>
     </div>
   );
 }
