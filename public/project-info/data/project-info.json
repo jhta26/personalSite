@@ -76,6 +76,10 @@
         "content": "Landing page for a start-up called FoodLoc.  FoodLoc’s mission is to connect people and the delicacy of food - the location around them has to offer in easy, fast and simple manner."
     },
     {
+        "title": "Features",
+        "content": "-Architected system using JavaScript, HTML5, CSS3, and ElementX, integrating DomParser to parse HTML5 from basketballreference.com, retrieving statistics on points, rebounds and assists per game."
+    },
+    {
         "title": "Tech Used",
         "content": "Javascript \n \n jQuery"
     }]
@@ -84,14 +88,18 @@
     "name": "TOP GOOGLE SEARCH",
     "image": "project-info/img/topGoogleSearch.png",
     "data": [
-    {
-        "title": "Summary",
-        "content": "Web-based client that returns top 3 google searches along with an image."
-    },
+        {
+            "title": "Summary",
+            "content": "Web-based client that returns top 3 google searches along with an image."
+        },
+        {
+            "title": "Features",
+            "content": "-Architected system using JavaScript, HTML5, CSS3, and ElementX, integrating DomParser to parse HTML5 from basketballreference.com, retrieving statistics on points, rebounds and assists per game."
+        },
 
-    {
-        "title": "Tech Used",
-        "content": "Javascript \n \n React\n \n Redux \n \n Google Search API"
-    }]
-}
-]
+        {
+            "title": "Tech Used",
+            "content": "Javascript \n \n React\n \n Redux \n \n Google Search API"
+        }
+    ]
+}]

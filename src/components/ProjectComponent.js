@@ -1,19 +1,70 @@
 import React from "react";
-import AccordionComponent from "./AccordionComponent";
+
 
 export default function ProjectComponent({ projectInfo, selectedProject }) {
   return (
     <div>
       {selectedProject === projectInfo.name ? (
         <div className="ProjectComponent col container">
-          <div className="row projectNameDes">
-            <h3 className="col projectNameAndFeatures animated fadeIn">
-              {projectInfo.name || "N/A"}
-            </h3>
-            <AccordionComponent
-              className="col projectNameAndFeatures"
-              data={projectInfo.data || "N/A"}
-            />
+          <div className="ProjectCards">
+            <div className="card teal lighten-2  ProjectCard">
+              <div className="card-action">
+                <li className="projDiv divider" tabindex="-1" />
+                <h4
+                  className="tooltipped activator waves-effect waves-block waves-light white-text"
+                  data-position="bottom"
+                  data-tooltip="Click Here"
+                >
+                  {projectInfo.data[0].title}/
+                  {projectInfo.data[1].title}
+                </h4>
+                <li className="projDiv divider" tabindex="-1" />
+              </div>
+              <div className="card-reveal teal lighten-2">
+                <div className="row">
+                  <span className="card-title white-text ">
+                    <i className="material-icons right closeIcon">close</i>
+                  </span>
+                </div>
+                <p className="schoolName white-text">
+                  {projectInfo.data[0].content}
+                </p>
+                {projectInfo.data[1].content
+                  .split("\n")
+                  .map(bullet => <p className="white-text">{bullet}</p>)}
+              </div>
+            </div>
+
+            <div className="card  ProjectCard">
+              <div className="resumeMain">
+                <h4 className="teal-text">{projectInfo.name}</h4>
+              </div>
+            </div>
+            {projectInfo.data[2] ? (
+              <div className="card teal lighten-2 ProjectCard">
+                <div className="card-action">
+                  <li className="projDiv divider" tabindex="-1" />
+                  <h4
+                    className="tooltipped activator waves-effect waves-block waves-light white-text"
+                    data-position="bottom"
+                    data-tooltip="Click Here"
+                  >
+                    {projectInfo.data[2].title}
+                  </h4>
+                  <li className="projDiv divider" tabindex="-1" />
+                </div>
+                <div className="card-reveal teal lighten-2">
+                  <div className="row">
+                    <span className="card-title white-text ">
+                      <i className="material-icons right">close</i>
+                    </span>
+                  </div>
+                  {projectInfo.data[2].content
+                    .split("\n")
+                    .map(bullet => <p className="white-text">{bullet}</p>)}
+                </div>
+              </div>
+            ) : null}
           </div>
           <div className="row projectNameDes">
             <img
