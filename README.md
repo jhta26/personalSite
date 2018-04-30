@@ -11,4 +11,4 @@ jfhsu.herokuapp.com
 
 
 
-![screenshot](./README/personal.gif?raw=true)
+![screenshot](./README/personal1.gif?raw=true)
