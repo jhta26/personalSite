@@ -5,10 +5,10 @@ import HomePageLayout from "./HomePageLayout";
 
 export default function HomePage() {
   return (
-    <div className="HomePage">
+    <div className="HomePage s12">
       <HomePageLayout>
-        <HeaderComponent />
-        <HomePageBodyComponent />
+        <HeaderComponent className="s12"/>
+        <HomePageBodyComponent className="s12" />
       </HomePageLayout>
     </div>
   );

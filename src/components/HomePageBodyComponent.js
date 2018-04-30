@@ -3,8 +3,8 @@ import "font-awesome/css/font-awesome.css";
 
 export default function HomePageBodyComponent() {
   return (
-    <div className="HomePageBodyComponent container">
-      <div className="row">
+    <div className="HomePageBodyComponent container col s12">
+      <div className="row s12">
         <div className="imageContainer center-align col m6 l6">
           <div className="imageSquare row">
             <img

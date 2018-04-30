@@ -1,11 +1,10 @@
 import React from "react";
 
-
 export default function ProjectComponent({ projectInfo, selectedProject }) {
   return (
     <div>
       {selectedProject === projectInfo.name ? (
-        <div className="ProjectComponent col container">
+        <div className="ProjectComponent col container m12">
           <div className="ProjectCards">
             <div className="card teal lighten-2  ProjectCard animated fadeInLeft">
               <div className="card-action">
@@ -15,8 +14,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
                   data-position="bottom"
                   data-tooltip="Click Here"
                 >
-                  {projectInfo.data[0].title}/
-                  {projectInfo.data[1].title}
+                  {projectInfo.data[0].title}
                 </h4>
                 <li className="projDiv divider" tabindex="-1" />
               </div>
