@@ -77,7 +77,7 @@
     },
     {
         "title": "Features",
-        "content": "-Architected system using JavaScript, HTML5, CSS3, and ElementX, integrating DomParser to parse HTML5 from basketballreference.com, retrieving statistics on points, rebounds and assists per game."
+        "content": ""
     },
     {
         "title": "Tech Used",
@@ -94,7 +94,7 @@
         },
         {
             "title": "Features",
-            "content": "-Architected system using JavaScript, HTML5, CSS3, and ElementX, integrating DomParser to parse HTML5 from basketballreference.com, retrieving statistics on points, rebounds and assists per game."
+            "content": "-Uses google api to return top three google searches"
         },
 
         {
