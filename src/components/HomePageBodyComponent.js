@@ -3,10 +3,10 @@ import "font-awesome/css/font-awesome.css";
 
 export default function HomePageBodyComponent() {
   return (
-    <div className="HomePageBodyComponent container col s12 m6">
-      <div className="row s12">
-        <div className="imageContainer center-align col s12 m6">
-          <div className="imageSquare row">
+
+      <div className="row center-align  s12 container">
+        <div className="center-align  col s12 m6">
+          <div className=" row">
             <img
               className="col animated fadeInLeft s6 m6"
               src={require("./resources/basketballPhoto.jpg")}
@@ -14,10 +14,10 @@ export default function HomePageBodyComponent() {
               height="200"
               width="207"
             />
-            <div className="filler1 col s6 m6" />
+            <div className="col s6 m6" />
           </div>
-          <div className="imageSquare row ">
-            <div className="filler2 col s6 m6" />
+          <div className="row ">
+            <div className="col s6 m6" />
             <img
               className="col animated fadeInRight s6 m6"
               src={require("./resources/tennisPhoto.jpeg")}
@@ -26,7 +26,7 @@ export default function HomePageBodyComponent() {
               width="207"
             />
           </div>
-          <div className="imageSquare row">
+          <div className="row ">
             <img
               className="col animated fadeInLeft s6 m6"
               src={require("./resources/boxingPhoto.jpg")}
@@ -34,10 +34,10 @@ export default function HomePageBodyComponent() {
               height="200"
               width="207"
             />
-            <div className="filler2 col s6 m6" />
+            <div className="col s6 m6" />
           </div>
         </div>
-        <div className="col linksContainer m6 l6">
+        <div className="col linksContainer m6 l6 s12 offset-s3">
           <div className="row">
             <h5 className="quote">
               <span className="turq s12 m6">"</span>Everybody is a genius, but if you
@@ -63,6 +63,6 @@ export default function HomePageBodyComponent() {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }

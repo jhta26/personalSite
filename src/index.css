@@ -44,12 +44,6 @@ body {
     color: #00ced1;
 }
 
-.imageSquare {
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-}
 
 .quote {
     width: 450px;
@@ -60,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .accorContainer {
