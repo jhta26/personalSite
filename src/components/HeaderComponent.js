@@ -8,7 +8,8 @@ export default function HeaderComponent({ onCloseProject }) {
 
   return (
     <nav className="navigation white container m12 s12 z-depth-0">
-      <div className="nav-wrapper white m12">
+      <div className="nav-wrapper  white m12">
+
         <Link to={"/"} className="black-text" onClick={_handleCloseProject}>
           <a className="black-text white left nameLink">
             JASON <span className="turq">H</span>{" "}
@@ -20,7 +21,7 @@ export default function HeaderComponent({ onCloseProject }) {
             />
           </a>
         </Link>
-        <ul id="nav-mobile" className="right hide-on-med-and-down">
+        <ul id="nav-mobile" className="right">
           <li>
             <Link to={"/projects"} className="black-text">
               PROJECTS

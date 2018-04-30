@@ -6,7 +6,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
       {selectedProject === projectInfo.name ? (
         <div className="ProjectComponent col container m12">
           <div className="ProjectCards">
-            <div className="card teal lighten-2  ProjectCard animated fadeInLeft">
+            <div className="card teal lighten-2  s12 ProjectCard animated fadeInLeft">
               <div className="card-action">
                 <li className="projDiv divider" tabindex="-1" />
                 <h4
@@ -39,7 +39,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
               </div>
             </div>
             {projectInfo.data[2] ? (
-              <div className="card teal lighten-2 ProjectCard animated fadeInRight">
+              <div className="card teal s12 lighten-2 ProjectCard animated fadeInRight">
                 <div className="card-action">
                   <li className="projDiv divider" tabindex="-1" />
                   <h4

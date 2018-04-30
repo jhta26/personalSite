@@ -3,23 +3,23 @@ import "font-awesome/css/font-awesome.css";
 
 export default function HomePageBodyComponent() {
   return (
-    <div className="HomePageBodyComponent container col s12">
+    <div className="HomePageBodyComponent container col s12 m6">
       <div className="row s12">
-        <div className="imageContainer center-align col m6 l6">
+        <div className="imageContainer center-align col s12 m6">
           <div className="imageSquare row">
             <img
-              className="col animated fadeInLeft"
+              className="col animated fadeInLeft s6 m6"
               src={require("./resources/basketballPhoto.jpg")}
               alt="basketball"
               height="200"
               width="207"
             />
-            <div className="filler1 col" />
+            <div className="filler1 col s6 m6" />
           </div>
           <div className="imageSquare row ">
-            <div className="filler2 col" />
+            <div className="filler2 col s6 m6" />
             <img
-              className="col animated fadeInRight"
+              className="col animated fadeInRight s6 m6"
               src={require("./resources/tennisPhoto.jpeg")}
               alt="tennis"
               height="200"
@@ -28,19 +28,19 @@ export default function HomePageBodyComponent() {
           </div>
           <div className="imageSquare row">
             <img
-              className="col animated fadeInLeft"
+              className="col animated fadeInLeft s6 m6"
               src={require("./resources/boxingPhoto.jpg")}
               alt="basketball"
               height="200"
               width="207"
             />
-            <div className="filler2 col" />
+            <div className="filler2 col s6 m6" />
           </div>
         </div>
         <div className="col linksContainer m6 l6">
           <div className="row">
             <h5 className="quote">
-              <span className="turq">"</span>Everybody is a genius, but if you
+              <span className="turq s12 m6">"</span>Everybody is a genius, but if you
               judge a fish by its ability to climb a tree, it will live its
               whole life believing that it is stupid.<span className="turq">
                 "
