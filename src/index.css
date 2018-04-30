@@ -256,7 +256,7 @@ button:focus {
 .resumeMain {
     border-top: 4px dotted teal;
     padding: 6px;
-    margin: 15px;
+    
 }
 
 
@@ -300,11 +300,9 @@ button:focus {
     padding:5px;
 }
 .ProjectCard{
-    width:33%;
+    
     margin:5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
 }
 .techRow {
     padding: 10px;

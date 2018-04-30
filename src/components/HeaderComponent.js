@@ -8,7 +8,7 @@ export default function HeaderComponent({ onCloseProject }) {
 
   return (
     <nav className="navigation white container m12 s12 z-depth-0">
-      <div className="nav-wrapper  white m12">
+      <div className="nav-wrapper  white s12">
 
         <Link to={"/"} className="black-text" onClick={_handleCloseProject}>
           <a className="black-text white left nameLink">
@@ -21,7 +21,8 @@ export default function HeaderComponent({ onCloseProject }) {
             />
           </a>
         </Link>
-        <ul id="nav-mobile" className="right">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile " className="right s12">
           <li>
             <Link to={"/projects"} className="black-text">
               PROJECTS
@@ -47,6 +48,14 @@ export default function HeaderComponent({ onCloseProject }) {
           </li>
         </ul>
       </div>
+          <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
     </nav>
+
+
   );
 }

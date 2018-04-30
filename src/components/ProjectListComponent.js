@@ -10,7 +10,6 @@ export default function ProjectListComponent({ onShowProject }) {
   return (
     <div className="container row center-align">
       <div className="col  s2 center-align">
-
         <i
           className="fa fa-map fa-4x animated fadeInUp center-align "
           value="GLANCE"
