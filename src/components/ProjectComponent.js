@@ -4,13 +4,13 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
   return (
     <div>
       {selectedProject === projectInfo.name ? (
-        <div className="ProjectComponent col container m12">
-          <div className="ProjectCards">
-            <div className="card teal lighten-2  s12 ProjectCard animated fadeInLeft">
+        <div className="row container m12">
+          <div className="ProjectCards row">
+            <div className="card teal lighten-2 col s4 ProjectCard animated fadeInLeft">
               <div className="card-action">
                 <li className="projDiv divider" tabindex="-1" />
                 <h4
-                  className="tooltipped activator waves-effect waves-block waves-light white-text"
+                  className="tooltipped row s4 activator waves-effect waves-block waves-light white-text"
                   data-position="bottom"
                   data-tooltip="Click Here"
                 >
@@ -33,17 +33,17 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
               </div>
             </div>
 
-            <div className="card  ProjectCard animate fadeInDown">
+            <div className="card col s4  ProjectCard animate fadeInDown">
               <div className="resumeMain">
                 <h4 className="teal-text">{projectInfo.name}</h4>
               </div>
             </div>
             {projectInfo.data[2] ? (
-              <div className="card teal s12 lighten-2 ProjectCard animated fadeInRight">
+              <div className="card teal col s4 lighten-2 ProjectCard animated fadeInRight">
                 <div className="card-action">
                   <li className="projDiv divider" tabindex="-1" />
                   <h4
-                    className="tooltipped activator waves-effect waves-block waves-light white-text"
+                    className="tooltipped row s4 activator waves-effect waves-block waves-light white-text"
                     data-position="bottom"
                     data-tooltip="Click Here"
                   >
