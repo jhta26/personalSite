@@ -31,35 +31,7 @@ export default function AboutMeBodyComponent() {
           </p>
         </div>
       </div>
-      <li className="divider container" tabindex="-1" />
-      <div className="aboutMeComponent">
-        <div className="col">
-          <h5>WHAT DO I LIKE TO DO?</h5>
-          <p>
-            I follow almost every major sport esp basketball, UFC. I love to
-            play basketball, tennis, and box. I try to stay active and go to the
-            gym as much as I can but I also love to eat. I like going out at
-            night with friends. I'm a pretty big movie buff. I like doing
-            codewars/codefights/leetcode problems a strange amount.
-          </p>
-        </div>
-        <div className="col">
-          <img
-            className="resume col circle animated fadeIn"
-            src={require("./resources/cocktails.jpeg")}
-            alt="resume"
-            height="100"
-            width="200"
-          />
-          <img
-            className="resume col circle animated fadeIn"
-            src={require("./resources/ufc.jpeg")}
-            alt="resume"
-            height="100"
-            width="200"
-          />
-        </div>
-      </div>
+
       <li className="divider container" tabindex="-1" />
       <div className="aboutMeComponent">
         <div className="col">
@@ -92,3 +64,34 @@ export default function AboutMeBodyComponent() {
     </div>
   );
 }
+
+
+      // <li className="divider container" tabindex="-1" />
+      // <div className="aboutMeComponent">
+      //   <div className="col">
+      //     <h5>WHAT DO I LIKE TO DO?</h5>
+      //     <p>
+      //       I follow almost every major sport esp basketball, UFC. I love to
+      //       play basketball, tennis, and box. I try to stay active and go to the
+      //       gym as much as I can but I also love to eat. I like going out at
+      //       night with friends. I'm a pretty big movie buff. I like doing
+      //       codewars/codefights/leetcode problems a strange amount.
+      //     </p>
+      //   </div>
+      //   <div className="col">
+      //     <img
+      //       className="resume col circle animated fadeIn"
+      //       src={require("./resources/cocktails.jpeg")}
+      //       alt="resume"
+      //       height="100"
+      //       width="200"
+      //     />
+      //     <img
+      //       className="resume col circle animated fadeIn"
+      //       src={require("./resources/ufc.jpeg")}
+      //       alt="resume"
+      //       height="100"
+      //       width="200"
+      //     />
+      //   </div>
+      // </div>
