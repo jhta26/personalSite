@@ -21,9 +21,9 @@ export default function HeaderComponent({ onCloseProject }) {
               />
             </a>
           </Link>
-        
-            <i className="material-icons">menu</i>
-          </a>
+
+          <i className="material-icons">menu</i>
+
           <ul id="nav-mobile " className="right s12">
             <li>
               <Link to={"/projects"} className="black-text">
@@ -51,7 +51,6 @@ export default function HeaderComponent({ onCloseProject }) {
           </ul>
         </div>
       </nav>
-      
     </div>
   );
 }
