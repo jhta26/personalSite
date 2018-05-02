@@ -22,7 +22,7 @@ export default function HeaderComponent({ onCloseProject }) {
           </a>
         </Link>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-        <ul id="nav-mobile " className="right s12 hide-on-small-only">
+        <ul id="nav-mobile " className="right s12">
           <li>
             <Link to={"/projects"} className="black-text">
               PROJECTS

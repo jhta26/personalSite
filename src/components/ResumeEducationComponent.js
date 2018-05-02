@@ -19,7 +19,6 @@ export default function ResumeEducationComponent() {
         <li className="eduDiv divider" tabindex="-1" />
           <h4 className="tooltipped activator waves-effect waves-block waves-light teal-text" data-position="bottom" data-tooltip="Click Here">
             Education
-              
           </h4>
           <li className="eduDiv divider" tabindex="-1" />
         </div>

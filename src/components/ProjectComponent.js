@@ -19,7 +19,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
                   </h4>
                   <li className="projDiv divider" tabindex="-1" />
                 </div>
-                <div className="card-reveal teal lighten-2">
+                <div className="card-reveal teal l12 m12 s12 lighten-2">
                   <div className="row">
                     <span className="card-title white-text ">
                       <i className="material-icons right closeIcon">close</i>
@@ -36,9 +36,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
             </div>
             <div className="col l4 m4 s12 ">
               <div className="card  animate fadeInDown">
-                
-                  <h4 className="row  s12 teal-text">{projectInfo.name}</h4>
-                
+                <h4 className="row  s12 teal-text">{projectInfo.name}</h4>
               </div>
             </div>
             <div className="col l4 m4 s12 ">
