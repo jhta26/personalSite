@@ -34,7 +34,17 @@ export default function AboutMeBodyComponent() {
 
       <li className="divider container" tabindex="-1" />
       <div className="aboutMeComponent">
+  
         <div className="col">
+          <h5>WHERE AM I FROM?</h5>
+          <p>
+            I was born in NY, raised in Novi, MI, and I went to college at
+            Western Michigan University. I had to get out of the cold Michigan
+            weather so I moved to San Francisco in July of 2017 to pursue a
+            career in tech.
+          </p>
+        </div>
+              <div className="col">
           <img
             className="resume col circle animated fadeIn"
             src={require("./resources/novi.jpg")}
@@ -49,15 +59,6 @@ export default function AboutMeBodyComponent() {
             height="100"
             width="200"
           />
-        </div>
-        <div className="col">
-          <h5>WHERE AM I FROM?</h5>
-          <p>
-            I was born in NY, raised in Novi, MI, and I went to college at
-            Western Michigan University. I had to get out of the cold Michigan
-            weather so I moved to San Francisco in July of 2017 to pursue a
-            career in tech.
-          </p>
         </div>
       </div>
       <li className="divider container" tabindex="-1" />
