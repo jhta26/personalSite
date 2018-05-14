@@ -2,7 +2,7 @@ import {compose,lifecycle} from 'recompose'
 import {connect} from 'react-redux'
 import ProjectPage from '../../components/ProjectPage'
 import getProjectInfoProcess from '../thunks/getProjectInfoProcess'
-
+import getProjectInfo from '../../requests/getProjectInfo'
 
 // projectInfo,onShowProject,selectedProject
 function mapStateToProps(state,ownProps){
@@ -10,7 +10,9 @@ function mapStateToProps(state,ownProps){
 }
 
 function mapDispatchToProps(dispatch,ownProps){
+	
     return{
+
         onMount: ()=>dispatch(getProjectInfoProcess()),
         onShowProject: selectedProject=>dispatch({type:'SELECT_PROJECT',selectedProject:selectedProject}),
         onCloseProject:()=>dispatch({type:'CLOSE_PROJECT'}) 
