@@ -6,7 +6,11 @@ export default function ResumeWorkComponent() {
       <div className="card teal lighten-2">
         <div className="card-action">
           <span className="workExpHeadLine activator waves-effect waves-block waves-light white-text">
-            <h4 className="tooltipped activator waves-effect waves-block waves-light white-text" data-position="bottom" data-tooltip="Click Here">
+            <h4
+              className="tooltipped activator waves-effect waves-block waves-light white-text"
+              data-position="bottom"
+              data-tooltip=""
+            >
               Work Experience
             </h4>
             <li className="workDiv divider" tabindex="-1" />
@@ -19,7 +23,7 @@ export default function ResumeWorkComponent() {
 
           <img
             className="schoolPic circle resume col  animated fadeIn"
-            src={require("./resources/s2e.png")}
+            src={require("../resources/s2e.png")}
             alt="resume"
             height="120"
             width="230"
@@ -53,7 +57,7 @@ export default function ResumeWorkComponent() {
 
           <img
             className="schoolPic circle resume col  animated fadeIn"
-            src={require("./resources/somerset.jpg")}
+            src={require("../resources/somerset.jpg")}
             alt="resume"
             height="120"
             width="230"

@@ -5,7 +5,7 @@ export default function ResumeMainComponent() {
     <div className="ResumeMainComponent animated fadeInDown">
       <div className="card">
         <img
-          src={require("./resources/hsu.png")}
+          src={require("../resources/hsu.png")}
           alt="hsu"
           height="130"
           width="130"

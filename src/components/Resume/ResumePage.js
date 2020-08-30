@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderComponent from "./HeaderComponent";
+import HeaderComponent from "../HeaderComponent";
 import ResumePageLayout from "./ResumePageLayout";
 import ResumeEducationComponent from "./ResumeEducationComponent";
 import ResumeTechnologiesComponent from "./ResumeTechnologiesComponent";

@@ -7,10 +7,8 @@ import { Provider } from "react-redux";
 import setupStore from "./redux/setupStore";
 import HomePage from "./components/HomePage";
 import ProjectPageContainer from "./redux/containers/ProjectPageContainer";
-import ResumePage from './components/ResumePage'
-import AboutMePage from './components/AboutMePage'
-
-
+import ResumePage from "./components/Resume/ResumePage";
+import AboutMePage from "./components/AboutMePage";
 
 const store = setupStore();
 
@@ -24,7 +22,7 @@ class App extends Component {
               <Route exact path="/" component={HomePage} />
               <Route exact path="/projects" component={ProjectPageContainer} />
               <Route exact path="/aboutMe" component={AboutMePage} />
-              <Route exact path="/resume" component ={ResumePage} />
+              <Route exact path="/resume" component={ResumePage} />
             </Switch>
           </Router>
         </Provider>

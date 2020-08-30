@@ -13,7 +13,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
                   <h4
                     className="tooltipped row s12 activator waves-effect waves-block waves-light white-text"
                     data-position="bottom"
-                    data-tooltip="Click Here"
+                    data-tooltip=""
                   >
                     {projectInfo.data[0].title}
                   </h4>
@@ -28,9 +28,9 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
                   <p className="schoolName white-text">
                     {projectInfo.data[0].content}
                   </p>
-                  {projectInfo.data[1].content
-                    .split("\n")
-                    .map(bullet => <p className="white-text">{bullet}</p>)}
+                  {projectInfo.data[1].content.split("\n").map((bullet) => (
+                    <p className="white-text">{bullet}</p>
+                  ))}
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
                   <h4
                     className="tooltipped row m4 s12 activator waves-effect waves-block waves-light white-text"
                     data-position="bottom"
-                    data-tooltip="Click Here"
+                    data-tooltip=""
                   >
                     {projectInfo.data[2].title}
                   </h4>
@@ -58,9 +58,9 @@ export default function ProjectComponent({ projectInfo, selectedProject }) {
                       <i className="material-icons right">close</i>
                     </span>
                   </div>
-                  {projectInfo.data[2].content
-                    .split("\n")
-                    .map(bullet => <p className="white-text">{bullet}</p>)}
+                  {projectInfo.data[2].content.split("\n").map((bullet) => (
+                    <p className="white-text">{bullet}</p>
+                  ))}
                 </div>
               </div>
             </div>
